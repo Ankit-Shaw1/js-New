@@ -34,3 +34,26 @@ const myFunction = function () {
 //----------------------Memory--------------------------------
 
 // Stack(Primitive), Heap(Non-Primitive)
+
+//stack
+let myYoutubename = "CodeWithHarry"
+
+let anothername = myYoutubename;
+anothername = "coding Ninja"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+//heap  --> reference
+let userOne = {
+    email: "aa@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email="gankit@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);

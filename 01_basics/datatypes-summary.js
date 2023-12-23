@@ -30,3 +30,7 @@ let myObj = {
 const myFunction = function () {
     console.log("Hello World");
 }
+
+//----------------------Memory--------------------------------
+
+// Stack(Primitive), Heap(Non-Primitive)
